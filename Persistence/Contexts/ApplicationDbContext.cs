@@ -4,11 +4,12 @@ using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Persistence.Contents
+namespace Persistence.Contexts
 {
     public class ApplicationDbContext : DbContext
     {
@@ -37,6 +38,10 @@ namespace Persistence.Contents
                 }
             }
             return base.SaveChangesAsync(cancellationTaken);
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }

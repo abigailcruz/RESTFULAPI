@@ -16,6 +16,8 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
         public string Telefono { get; set; }
         public string Email { get; set; }
         public string Direccion { get; set; }
+        public string DUI { get; set; }
+        public string NIT { get; set; }
     }
     public class CreatedClienteCommandHandler : IRequestHandler<CreateClienteCommand, Response<int>>
     {
