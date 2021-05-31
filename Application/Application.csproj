@@ -19,7 +19,10 @@
     <Folder Include="Features\Clientes\Commands\UpdateClienteCommand\" />
     <Folder Include="Features\Clientes\Queries\GetAllClientes\" />
     <Folder Include="Features\Clientes\Queries\GetClienteById\" />
-    <Folder Include="Mappings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>
