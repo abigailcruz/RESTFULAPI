@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace WebAPI.Controllers.v1
 {
     [ApiVersion("1.0")]
-    public class ClienteController : BaseApiController
+    public class ClientesController : BaseApiController
     {
         //POST api/<controller>
         [HttpPost]

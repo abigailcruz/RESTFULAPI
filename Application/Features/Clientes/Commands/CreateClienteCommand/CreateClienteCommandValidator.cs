@@ -41,7 +41,7 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
 
             RuleFor(p => p.NIT)
                .NotEmpty().WithMessage("{PropertyName} no puede ser vacio.")
-               .Matches(@"^\d{4}-\d{6}$-^\d{3}-\d{1}$").WithMessage("{PropertyName} debe cumplir con el formato 0000-000000-000-0")
+               .Matches(@"^\d{4}-\d{6}-\d{3}-\d{1}$").WithMessage("{PropertyName} debe cumplir con el formato 0000-000000-000-0")
                .MaximumLength(17).WithMessage("{PropertyName} no debe exceder de {MaxLength");
 
         }

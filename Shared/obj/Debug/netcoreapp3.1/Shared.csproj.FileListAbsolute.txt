@@ -10,3 +10,5 @@ C:\Users\Aby\source\repos\BancoCursoRestful\Shared\obj\Debug\netcoreapp3.1\Share
 C:\Users\Aby\source\repos\BancoCursoRestful\Shared\bin\Debug\netcoreapp3.1\Application.dll
 C:\Users\Aby\source\repos\BancoCursoRestful\Shared\bin\Debug\netcoreapp3.1\Application.pdb
 C:\Users\Aby\source\repos\BancoCursoRestful\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.CopyComplete
+C:\Users\Aby\source\repos\BancoCursoRestful\Shared\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Aby\source\repos\BancoCursoRestful\Shared\bin\Debug\netcoreapp3.1\Domain.pdb
